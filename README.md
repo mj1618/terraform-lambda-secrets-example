@@ -27,7 +27,7 @@ curl -X POST "https://YOUR-URL-ID.lambda-url.ap-southeast-2.on.aws/"
 You should see the following output if you set a secret length of 6:
 
 ```json
-{"body":"Secret retrieved successfully, secret has correct length 6.","status":500}
+{"body":"Secret retrieved successfully, secret has correct length 6.","status":200}
 ```
 
 Or the following if it retrieved a secret that wasn't length 6:
