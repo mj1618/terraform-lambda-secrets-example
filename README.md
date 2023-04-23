@@ -19,9 +19,9 @@ terraform init
 TF_VAR_my_secret_value=123456 terraform apply
 ```
 
-Note in production you should never use secrets on the command line.
-To set environment variables without being recorded in history use `pass`.
-Or use HCP Vault.
+Note in production you should not use secrets on the command line as it is store in the cli's history.
+To set environment variables without being recorded in history use `pass` or add a space before the command.
+Or use HCP Vault for a if you're looking for a more sophisticated solution to this.
 
 Take note of the URL that is output, then invoke the function with:
 
