@@ -1,7 +1,7 @@
 # Terraform Lambda Secrets Example
 
 ## Prereqs
-- Terraform
+- Terraform >=1.4
 - Node 16
 - yarn
 
