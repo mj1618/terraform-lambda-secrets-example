@@ -1,0 +1,10 @@
+{
+    "name": "lambda",
+    "version": "1.0.0",
+    "type": "module",
+    "main": "index.js",
+    "author": "",
+    "dependencies": {
+        "aws-sdk": "^2.1363.0"
+    }
+}
