@@ -1,5 +1,10 @@
 # Terraform Lambda Secrets Example
 
+This example creates a lambda that retrieves a secret from Secrets Manager at runtime.
+This is the recommended way to store and retrieve a secret in a lambda.
+
+Note that the lambda deployed has a publicly accessible endpoint that anyone can access.
+
 ## Prereqs
 - Terraform >=1.4
 - Node 16
