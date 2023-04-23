@@ -13,9 +13,10 @@ Apply the terraform scripts to deploy the secret and lambda.
 terraform init
 TF_VAR_my_secret_value=123456 terraform apply
 ```
-`Note in production you should never use secrets on the command line.
+
+Note in production you should never use secrets on the command line.
 To set environment variables without being recorded in history use `pass`.
-Or use HCP Vault.`
+Or use HCP Vault.
 
 Take note of the URL that is output, then invoke the function with:
 
